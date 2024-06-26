@@ -1,14 +1,5 @@
-This is a Kotlin Multiplatform project targeting Android, iOS, Desktop.
+# Compose Canvas showcase
 
-* `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - `commonMain` is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    `iosMain` would be the right folder for such calls.
+This repository showcases the use of the Compose Canvas API in a Compose Multiplatform project to create a cute little santa. The project demonstrates the capabilities of Compose Multiplatform to create custom graphics using the Canvas API and can be run on multiple platforms including Android, iOS, desktop, and web.
 
-* `/iosApp` contains iOS applications. Even if you’re sharing your UI with Compose Multiplatform, 
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
-
-
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+<img width="383" alt="Screenshot 2024-06-26 at 16 40 04" src="https://github.com/torland-klev/compose-santa/assets/43351827/6a076fac-6298-4554-8d24-957891f4bf97">
