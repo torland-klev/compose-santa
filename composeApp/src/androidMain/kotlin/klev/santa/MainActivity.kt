@@ -48,7 +48,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun App() {
-    Column(Modifier.fillMaxSize(), verticalArrangement = Arrangement.Center, horizontalAlignment = Alignment.CenterHorizontally) {
+    Column(Modifier.fillMaxSize().background(Color.LightGray), verticalArrangement = Arrangement.Center, horizontalAlignment = Alignment.CenterHorizontally) {
         ConstraintLayout {
             val (hat, face) = createRefs()
             Hat(Modifier.constrainAs(hat) {
