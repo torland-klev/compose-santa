@@ -8,5 +8,5 @@ The project demonstrates the flexibility of ComposeCanvas to create custom graph
 
 For more information, see:
 * [Compose Multiplatform](https://www.jetbrains.com/lp/compose-multiplatform/)
-* [Graphics in Compose]([https://www.jetbrains.com/lp/compose-multiplatform/](https://developer.android.com/develop/ui/compose/graphics/draw/overview)
+* [Graphics in Compose](https://developer.android.com/develop/ui/compose/graphics/draw/overview)
 * [Canvas in Jetpack Compose](https://blog.kotlin-academy.com/canvas-in-jetpack-compose-c6e7b651fd9b)
